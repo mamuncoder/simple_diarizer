@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 import torch
 import torchaudio
-from speechbrain.pretrained import EncoderClassifier
+from speechbrain.inference import EncoderClassifier
 from tqdm.autonotebook import tqdm
 
 from .cluster import cluster_AHC, cluster_SC
